@@ -1,0 +1,258 @@
+
+.container {
+
+
+}
+
+* {
+outline: none;
+} 
+body {
+margin:0;
+padding:0;
+font-family: Arial, Helvetica, sans-serif;
+background: #fff;
+}
+
+h1 {
+font-size: 300%; 
+margin: 0; 
+padding: 5px 5px 5px 10px; 
+}
+
+h2 {
+font-size: 200%;
+padding: 5px;
+margin: 5px 5px;
+background-color: #fff;
+}
+h3 {
+font-size: 120%;
+padding: 5px;
+margin: 5px 5px;
+background-color: #ffc20e;
+overflow: auto;   /* see http://www.communitymx.com/content/article.cfm?page=2&cid=6BC9D   for what this does*/
+color: black;
+
+}
+h4 {
+font-size: 100%;
+margin: 5px 5px 0px 10px;
+background-color: #fff; 
+}
+
+hr {
+  color: #c9f;
+  background-color: #c9f;
+  border: 0;
+  height: 5px;
+  width: 70%;
+}
+
+p {
+font-size: 100%;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right:10px;
+}
+
+pre {
+padding: 5px;
+}
+
+
+a:link {color:#008888;} 
+a:visited {color:#880000;}  
+a:hover {color:#880000;}
+ 
+img {
+border: 1px;
+border-style: solid;
+}
+
+table {
+border-style: solid; 
+border-width: 1px;
+border-color: #666666;
+}
+
+.clearboth
+{
+clear: both;
+}
+
+.floatright
+{
+float: right;
+margin: 5px;
+background-color: #ddd;
+}
+.floatclearright
+{
+float: right;
+margin: 15px;
+background-color: #ddd;
+clear: right;
+}
+.floatleft
+{
+float: left;
+margin: 5px;
+background-color: #ddd;
+}
+.colwidthfloat
+{
+float: left;
+margin: 1.5%;
+background-color: #ddd;
+width: 97%;
+}
+.floatclearleft
+{
+float: left;
+margin: 5px;
+background-color: #ddd;
+clear: left; 
+}
+
+.im_caption
+{
+font-size:80%;
+text-align: center;
+/*height: 5em;*/
+}
+.im_table
+{
+/*height: 15em;*/
+}
+
+#leftcol {
+background: #000;
+float: left;
+width: 84px;
+/*width: 10%;*/
+/*height: 500px;*/
+margin-bottom: -7px;
+/*padding-right: 0px;*/
+border-top: 4px solid #000;
+border-bottom: 3px solid #000;
+}
+#leftcol ul {
+list-style: none;
+padding:0;
+margin:0;
+/*text-align: right;*/
+}
+#leftcol ul li {
+display: inline; /* this gets rid of the gaps */
+list-style: none;
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+/* leaving this next thing out helps ie, hurts all others */
+#leftcol li a{
+display:block;
+padding:0;
+margin:0;
+border:0;
+}
+
+#leftcol li a img{
+display:block;
+padding:0;
+margin:0;
+border-width:0;
+}
+
+.mycolumn1 {
+width: 46%;
+min-width: 350px;
+background: #333;
+float: left;
+margin-left: 5px;
+margin-bottom: 5px;
+}
+.mycolumn2 {
+width: 46%;
+min-width: 350px;
+background: #333;
+float: left;
+margin-bottom: 5px;
+}
+
+#header {
+max-width: 1000px;
+background: #ed1c24;
+color: black;
+/*width: 100%;*/   /*messes up opera if uncommented*/
+border-bottom: 7px solid black;
+/* border-top: 7px solid black; */
+overflow: auto;  
+text-align: center;
+}
+#header h3 {
+background: inherit;
+}
+#content {
+max-width: 1000px;
+overflow: auto;   /* see http://www.communitymx.com/content/article.cfm?page=2&cid=6BC9D   for what this does*/
+color: #000;
+/*padding: 10px; */ /*ie seems to ignore this, so put it in elsewhere i guess */
+}
+
+
+#content ul li {
+    margin: 0;
+    padding: 0.2em;
+}
+
+div.paper {
+	color: black;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: justify;
+}
+div.paper span.authors span.me {
+	font-weight: bold;
+}
+div.paper span.title {
+}
+div.paper span.conference {
+	font-style: oblique;
+	color: rgb(140, 140, 140);
+}
+div.paper span.pages {
+	color: rgb(170, 170, 170);
+}
+div.paper span.dl_link {
+	margin-left:5px;
+	margin-right: 5px;
+}
+
+a {
+	text-decoration: none;
+	transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+}
+
+
+#footer {
+background: #333;
+color: #fff;
+clear: both;
+width: 100%;
+border-top: 7px solid black;
+}
+#footer a:link {color:#ffffff;text-decoration: none;}
+#footer a:visited {color:#ffffff;text-decoration: none;} 
+#footer a:hover {color:#880000;} 
+#footer p{
+max-width: 1000px;
+}
